@@ -16,7 +16,7 @@ exit(1);
 }
 
 fseek(fp,-1,SEEK_END);
-	lenghth=ftel(fp);
+	length=ftell(fp);
 	fseek(fp,(length-num),SEEK_SET);
 do
 {
